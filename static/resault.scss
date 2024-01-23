@@ -1,0 +1,110 @@
+$mobile: "only screen and (max-width : 480px)"; 
+$tablet: "only screen and (max-width : 768px)";
+$largetablet: "only screen and (max-width : 895px)";
+$desktop: "only screen and (max-width : 1025px)";
+$largedesktop: "only screen and (max-width : 2225px)";
+
+
+:root{
+    --primaryColor:#00362D;
+    --2ndColor:#0D5146;
+    --3rdColor:#246C60;
+    --4thColor: #5e9b90;
+    --5thColor: #aed3cd;
+    --bodyColor:#2b3130;
+    --mainWhite: rgb(244, 255, 253);
+    --mainYellow:#f7fba5;
+    --mainBright:rgba(243,234,218,1);
+}
+
+.bgcontainer{
+    background-image:none;
+
+}
+body{
+    background-image: url(./puzzle.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    @media #{$largedesktop}{
+        background-size: 177%;
+    }
+    @media #{$desktop}{
+        background-size: 203%;
+    }
+    @media #{$largetablet}{
+        background-size: 194%;
+        background-repeat: repeat-y;
+    }
+    @media #{$tablet}{
+        background-size: 242%;
+        background-repeat: repeat-y;
+    }
+    @media #{$mobile}{
+        background-size: 271%;
+        background-repeat: repeat-y;
+    }
+}
+.container{
+    // background-color: rgba(59,98,91,1);
+}
+.table {
+    // background: linear-gradient(90deg, rgb(0, 0, 0) 0%, var(--2ndColor) 0%, var(--5thColor) 100%);
+    background: rgb(59,98,91);
+    color: var(--mainBright);
+    // background: linear-gradient(90deg, rgba(59,98,91,1) 0%, rgba(106,138,130,1) 42%, rgba(243,234,218,1) 77%);
+    opacity: 0.8;
+    // text-align: center;
+    vertical-align: middle;
+}
+
+.col1{
+    // color: var(--4thColor);
+    width: 30%;
+    padding-left: 20px !important;
+}
+.col2{
+    // color: var(--2ndColor);
+    width: 30%;
+}
+.col3{
+    // color: var(--primaryColor);
+    width: 15%;
+}
+th.col1{
+    font-size: 1.4rem !important;
+    background-color: var(--mainBright);
+    color: #00362D;
+    @media #{$mobile}{
+        font-size: 0.8rem !important;
+    }
+    @media #{$tablet}{
+        font-size: 1.2rem !important;
+    }
+}
+th.col2{
+    font-size: 1.4rem !important;
+    background-color: var(--mainBright);
+    color: #00362D;
+    @media #{$mobile}{
+        font-size: 0.8rem !important;
+    }
+    @media #{$tablet}{
+        font-size: 1.2rem !important;
+    }
+}
+th.col3{
+    font-size: 1.4rem !important;
+    background-color: var(--mainBright);
+    color: #00362D;
+    @media #{$mobile}{
+        font-size: 0.8rem !important;
+    }
+    @media #{$tablet}{
+        font-size: 1.2rem !important;
+    }
+}
+.table-warningg>td{
+    background-color: var(--mainBright); 
+    color: rgb(59,98,91);
+}

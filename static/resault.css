@@ -1,0 +1,123 @@
+:root {
+  --primaryColor:#00362D;
+  --2ndColor:#0D5146;
+  --3rdColor:#246C60;
+  --4thColor: #5e9b90;
+  --5thColor: #aed3cd;
+  --bodyColor:#2b3130;
+  --mainWhite: rgb(244, 255, 253);
+  --mainYellow:#f7fba5;
+  --mainBright:rgba(243,234,218,1);
+}
+
+.bgcontainer {
+  background-image: none;
+}
+
+body {
+  background-image: url(./puzzle.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+@media only screen and (max-width : 2225px) {
+  body {
+    background-size: 177%;
+  }
+}
+@media only screen and (max-width : 1025px) {
+  body {
+    background-size: 203%;
+  }
+}
+@media only screen and (max-width : 895px) {
+  body {
+    background-size: 194%;
+    background-repeat: repeat-y;
+  }
+}
+@media only screen and (max-width : 768px) {
+  body {
+    background-size: 242%;
+    background-repeat: repeat-y;
+  }
+}
+@media only screen and (max-width : 480px) {
+  body {
+    background-size: 271%;
+    background-repeat: repeat-y;
+  }
+}
+
+.table {
+  background: rgb(59, 98, 91);
+  color: var(--mainBright);
+  opacity: 0.8;
+  vertical-align: middle;
+}
+
+.col1 {
+  width: 30%;
+  padding-left: 20px !important;
+}
+
+.col2 {
+  width: 30%;
+}
+
+.col3 {
+  width: 15%;
+}
+
+th.col1 {
+  font-size: 1.4rem !important;
+  background-color: var(--mainBright);
+  color: #00362D;
+}
+@media only screen and (max-width : 480px) {
+  th.col1 {
+    font-size: 0.8rem !important;
+  }
+}
+@media only screen and (max-width : 768px) {
+  th.col1 {
+    font-size: 1.2rem !important;
+  }
+}
+
+th.col2 {
+  font-size: 1.4rem !important;
+  background-color: var(--mainBright);
+  color: #00362D;
+}
+@media only screen and (max-width : 480px) {
+  th.col2 {
+    font-size: 0.8rem !important;
+  }
+}
+@media only screen and (max-width : 768px) {
+  th.col2 {
+    font-size: 1.2rem !important;
+  }
+}
+
+th.col3 {
+  font-size: 1.4rem !important;
+  background-color: var(--mainBright);
+  color: #00362D;
+}
+@media only screen and (max-width : 480px) {
+  th.col3 {
+    font-size: 0.8rem !important;
+  }
+}
+@media only screen and (max-width : 768px) {
+  th.col3 {
+    font-size: 1.2rem !important;
+  }
+}
+
+.table-warningg > td {
+  background-color: var(--mainBright);
+  color: rgb(59, 98, 91);
+}/*# sourceMappingURL=resault.css.map */
