@@ -1,6 +1,8 @@
 ## CS50 Test
 This is a final project for HarvardX CS50's Web Programming with Python and JavaScript. CS50 Test is a quiz app. This Web App has been built for CS50 learners who want to test their skills after they take this course. Users are able to create their tests, take them, view the score, and check all of their results.
 
+![](https://github.com/melinafallahpour/quizfinal/blob/main/1.jpg)
+
 ### [Live Site](https://quizfinal.pythonanywhere.com/)
 ### [Video Demo](https://youtu.be/gR3meOVyF4s/)
 
